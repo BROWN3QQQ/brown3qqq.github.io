@@ -1,0 +1,30 @@
+{
+  "name": "inlife.github.io",
+  "version": "2.0.0",
+  "description": "@inlife's site",
+  "main": "next.config.js",
+  "scripts": {
+    "start": "next",
+    "export": "next build && next export -o dist && cp static/keybase.txt dist/ && cp static/robots.txt dist/ && echo '' > dist/.nojekyll",
+    "publish": "git push origin `git subtree split --prefix dist develop`:master --force"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inlife/inlife.github.io.git"
+  },
+  "author": "inlife",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Inlife/inlife.github.io/issues"
+  },
+  "homepage": "https://inlife.github.io",
+  "devDependencies": {},
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "animate.css": "^3.7.0",
+    "next": "^7.0.2",
+    "normalize.css": "^8.0.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
