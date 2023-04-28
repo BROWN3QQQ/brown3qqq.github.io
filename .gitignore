@@ -1,0 +1,16 @@
+# logs
+logs
+*.log
+npm-debug.log*
+
+# deps
+node_modules
+
+# npm cache
+.npm
+
+# os
+.DS_Store
+
+# project
+.next
