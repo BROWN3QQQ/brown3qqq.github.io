@@ -5,7 +5,7 @@
   "main": "next.config.js",
   "scripts": {
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && next",
-    "export": "set NODE_OPTIONS=--openssl-legacy-provider && cp static/keybase.txt dist/ && cp static/robots.txt dist/ && echo '' > dist/.nojekyll",
+    "export": "set NODE_OPTIONS=--openssl-legacy-provider && next build && next export -o dist && cp static/keybase.txt dist/ && cp static/robots.txt dist/ && echo '' > dist/.nojekyll",
     "publish": "git push origin `git subtree split --prefix dist develop`:master --force"
   },
   "repository": {
