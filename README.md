@@ -1,33 +1,29 @@
-# Homepage
+# Cui Qian
 
-Hello, this is my homepage. If you like it, you can use it as a reference. 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=AI+Algorithm+Researcher;Building+Agent+%2B+LLM+%2B+Backend+Systems;Welcome+to+my+personal+site+repository)](https://github.com/BROWN3QQQ/brown3qqq.github.io)
 
-## Instructions
+Personal website repository for `https://brown3qqq.github.io/`.
 
-```sh
-$ git clone git@github.com:inlife/inlife.github.io.git
+## Focus
+
+- Agent
+- LLM
+- Backend
+
+## Local Development
+
+```powershell
+npm install
+npm run dev
 ```
 
-```sh
-$ npm i && npm run dev
-```
+Open `http://localhost:3000`.
 
-## Exporting and publishing
+## Deploy
 
-Using next.js we can export our react application as a static thingy.
-Which we will publish as a subtree to master branch after that.
+This project uses:
 
-```sh
-$ npm run export
-```
-```sh
-$ git add . && git commit -m "your message"
-```
-```sh
-$ npm run publish
-```
+- `develop` for source code
+- `release` for GitHub Pages publishing
 
-## Used technologies
-
-* react
-* next.js
+The detailed deployment process is documented in [DEPLOY.md](./DEPLOY.md).
