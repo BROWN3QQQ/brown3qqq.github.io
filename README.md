@@ -1,29 +1,54 @@
 # Cui Qian
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=AI+Algorithm+Researcher;Building+Agent+%2B+LLM+%2B+Backend+Systems;Welcome+to+my+personal+site+repository)](https://github.com/BROWN3QQQ/brown3qqq.github.io)
+```text
++------------------------------------------------------------+
+| Cui Qian                                                   |
+| AI Algorithm Researcher                                    |
+| Building Agent + LLM + Backend Systems                     |
++------------------------------------------------------------+
+```
 
-Personal website repository for `https://brown3qqq.github.io/`.
+> Personal website repository for `https://brown3qqq.github.io/`
 
-## Focus
+## Current Focus
 
-- Agent
-- LLM
-- Backend
+| Track | Direction |
+| --- | --- |
+| `Agent` | Autonomous workflows and task execution |
+| `LLM` | LLM application design and orchestration |
+| `Backend` | Reliable services, APIs, and deployment flows |
 
-## Local Development
+## Project Snapshot
+
+```text
+status      :: active
+branch      :: develop -> source code
+publish     :: release -> GitHub Pages
+stack       :: Next.js / React / Tailwind CSS
+site        :: brown3qqq.github.io
+```
+
+## Quick Start
 
 ```powershell
 npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+Open `http://localhost:3000`
 
-## Deploy
+## Release Flow
 
-This project uses:
+```text
+develop  -> edit source
+build    -> generate static files
+dist     -> prepare publishing artifacts
+release  -> publish to GitHub Pages
+```
 
-- `develop` for source code
-- `release` for GitHub Pages publishing
+Detailed steps are documented in [DEPLOY.md](./DEPLOY.md).
 
-The detailed deployment process is documented in [DEPLOY.md](./DEPLOY.md).
+## Repository Goal
+
+This repository is used to maintain and publish my personal website.
+It is focused on clean presentation, static deployment, and iterative updates around my work in AI systems.
